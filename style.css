@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Lato, sans-serif;
+    background-color: rgb(44, 47, 48);
+}
+
+.container{
+    padding: 15px 20px;
+    overflow: hidden;
+    background: white;
+    margin: 200px auto;
+    display: flex;
+    flex-direction: row;
+    height: 460px;
+    width: 800px;
+    border-radius: 10px;
+}
+
+.container .block-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+}
+
+.container .block-left i{
+    color: #f66053;
+    margin-right: 15px;
+}
+
+.container .block-left .content{
+    width: 90%;
+    font-weight: 600;
+    color: #20203d;
+}
+
+.container .block-left h1{
+    font-size: 2.5em;
+    color: #20203d;
+}
+
+.container .block-left span{
+    font-size: 14px;
+}
+
+.container .block-right {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: normal;
+}
+
+.container .block-right img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.container .block-left form label{
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.container .block-left form input{
+    width: 80%;
+    padding: 15px;
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+
+.container .block-left form button{
+    width: 80%;
+    padding: 15px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #20203d;
+    color: white;
+}
+
+.container-2{
+    background: white;
+    margin: 200px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 460px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.container-2 .block h1{
+    font-size: 2.5em;
+}
+
+.container-2 .block p{
+    text-align: center;
+    font-size: 14px;
+}
+
+.container-2 .block{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+}
+
+.container-2 .check {
+    position: absolute;
+    left: 0;
+    top: -39px;
+}
+
+.container-2 i{
+    font-size: 3em;
+    color: #f66053;
+}
+
+.container-2 .block button{
+    width: 80%;
+    padding: 15px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #20203d;
+    color: white;
+}
+
+
+button{
+    transition: 0.3s;
+}
+button:hover{
+    transform: translateY(-5px);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
