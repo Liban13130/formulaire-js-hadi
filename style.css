@@ -73,7 +73,7 @@ body{
     border-radius: 15px;
 }
 
-.container .block-left form button{
+.container .block-left form .button{
     width: 80%;
     padding: 15px;
     font-size: 18px;
@@ -83,12 +83,19 @@ body{
     cursor: pointer;
     background-color: #20203d;
     color: white;
+    transition: 0.3s;
 }
+
+.container .block-left form .button:hover{
+    transform: translateY(-5px);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
 
 .container-2{
     background: white;
     margin: 200px auto;
-    display: flex;
+    display: none; /* remplacer par flex */
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -126,7 +133,7 @@ body{
     color: #f66053;
 }
 
-.container-2 .block button{
+.container-2 .block .button{
     width: 80%;
     padding: 15px;
     font-size: 18px;
@@ -138,8 +145,16 @@ body{
     color: white;
 }
 
-
 button{
+    width: 80%;
+    padding: 15px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #20203d;
+    color: white;
     transition: 0.3s;
 }
 button:hover{
