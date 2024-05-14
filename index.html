@@ -25,9 +25,7 @@
       <div class="block-left">
         <div class="content">
           <h1>Stay Updated!</h1>
-          <span
-            >Join 60.000+ product managers receiving monthly updates on :</span
-          >
+          <span>Join 60.000+ product managers receiving monthly updates on :</span>
           <p>
             <i class="fa-solid fa-circle-check"></i> Product discovery and
             building what matters
@@ -42,6 +40,7 @@
         <form action="">
           <label for="email">Email adress</label>
           <div class="input">
+            <span id="error" class="error">Adresse mail invalide</span>
             <input
               type="text"
               name=""
@@ -64,10 +63,10 @@
             </div>
         <h1>Thanks for subscribing!</h1>
         <p>
-          A confirmation email has been sent to .................. Please open
+          A confirmation email has been sent to <span id="user-mail"></span> Please open
           it and click the button inside to confirmation your subscribtion.
         </p>
-        <button>Dismiss message</button>
+        <button class="back-home">Dismiss message</button>
       </div>
     </div>
   </body>

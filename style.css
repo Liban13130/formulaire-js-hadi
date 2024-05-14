@@ -91,6 +91,24 @@ body{
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
+.container form .input{
+    position: relative;
+}
+
+.container form .input .error{
+    display: none;
+    position: absolute;
+    right: 100px;
+    top: -18px;
+    font-size: 13px;
+    color: red;
+}
+
+
+
+
+
+
 
 .container-2{
     background: white;
